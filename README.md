@@ -19,19 +19,19 @@ Certifique-se de ter o .NET Runtime instalado em seu computador. Você pode baix
 O programa utiliza a biblioteca Serilog para o registro de logs. Certifique-se de ter os pacotes NuGet Serilog e Serilog.Sinks.File instalados em seu projeto.
 
 ### 2. Compilação
-2.1 Abra o projeto no Visual Studio (ou em seu editor de código C# preferido).
-2.2 Compile o projeto para gerar arquivo executável (MonitorInternt.exe).
+* Abra o projeto no Visual Studio (ou em seu editor de código C# preferido).
+* Compile o projeto para gerar arquivo executável (MonitorInternt.exe).
 
 ### 3. Execução
-3.1 Abra um prompt de comando ou terminal.
-3.2 Navegue até a pasta onde o arquivo executável foi gerado.
-3.3 Execute o programa digitando MonitorInternet.exe e pressionando Enter.
-3.4 O programa começará a monitorar a conexão com a internet em segundo plano.
-3.5 Para parar o programa, feche a janela do prompt de comando ou terminal.
+* Abra um prompt de comando ou terminal.
+* Navegue até a pasta onde o arquivo executável foi gerado.
+* Execute o programa digitando MonitorInternet.exe e pressionando Enter.
+* O programa começará a monitorar a conexão com a internet em segundo plano.
+* Para parar o programa, feche a janela do prompt de comando ou terminal.
 
 ### 4. Arquivo de Log
-4.1 O arquivo de log MonitorInternet.log será criado na pasta "Documentos" do usuário.
-4.2 Você pode abrir o arquivo de log com qualquer editor de texto para visualizar os registros de falhas e sucessos de conexão.
+* O arquivo de log MonitorInternet.log será criado na pasta "Documentos" do usuário.
+* Você pode abrir o arquivo de log com qualquer editor de texto para visualizar os registros de falhas e sucessos de conexão.
 
 ## Observações
 Este é um programa simples e não possui interface gráfica. A interação com o usuário é feita através do prompt de comando ou terminal.
